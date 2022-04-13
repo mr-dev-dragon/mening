@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+* {
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "~antd/dist/antd.css";
+
+.Login-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/bglogin.svg"), url("./images/doodle.svg");
+}
+.Account-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/bgaccount.svg"),
+    url("./images/bgaccount2.svg");
+}
+
+.Index-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/flux.svg");
+}
+
+.Board-creation {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/bgboardcreation.svg");
+}
+.Idea-creation {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/bgideascreation.svg");
+}
+
+.Login-input {
+  margin: 15px;
+  width: 400px;
+}
+
+.Sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 5%;
+  background-color: rgba(169, 192, 255, 0.952);
+  margin: 40px;
+}
+
+.Sign .Login-input {
+  width: 250px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+.comment-action {
+  padding-left: 8px;
+  cursor: "auto";
+}
+
+[class*="-col-rtl"] .comment-action {
+  padding-right: 8px;
+  padding-left: 0;
+}
+
+.howItWorks-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.howItWorksTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-size: large;
+}
+
+.howItWorksTitle > h1 {
+  color: black;
+  font-size: 40px;
+}
+
+.parent {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
